@@ -1,5 +1,5 @@
-This repository houses the text files used to generate my Curriculum Vitae. Please feel free to use
-mine as a template.
+This repository houses the code used to generate my Curriculum Vitae. Please feel free to use
+as a template.
 Copyright (C) 2014 Fayimora Femi-Balogun
 
 Permission is hereby granted, free of charge, to any person obtaining
