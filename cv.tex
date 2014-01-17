@@ -6,10 +6,9 @@
 \usepackage{xunicode,xltxtra,url,parskip} %other packages for formatting
 \RequirePackage{color,graphicx}
 \usepackage[usenames,dvipsnames]{xcolor}
-%\usepackage[big]{layaureo} %better formatting of the A4 page
+% \usepackage[big]{layaureo} %better formatting of the A4 page
 \usepackage{fullpage}
-% an alternative to Layaureo can be ** \usepackage{fullpage} **
-\usepackage{supertabular} %for Grades
+% \usepackage{supertabular} %for Grades
 \usepackage{titlesec} %custom \section
 
 %Setup hyperref package, and colours for links
@@ -23,7 +22,6 @@
 %FONTS
 \defaultfontfeatures{Mapping=tex-text}
 %\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin}
-%%% modified for Karol Kozioł for ShareLaTeX use
 \setmainfont[
   SmallCapsFont = Fontin-SmallCaps.otf,
   BoldFont = Fontin-Bold.otf,
@@ -32,8 +30,6 @@
 {Fontin.otf}
 %%%
 
-%CV Sections inspired by:
-%http://stefano.italians.nl/archives/26
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{3pt}{3pt}
 %Tweak a bit the top margin
@@ -67,7 +63,7 @@
 \section{Personal Data}
 
 \begin{tabular}{rl}
-  % \textsc{Place and Date of Birth:} & Someplace  | 03 July 1993 \\
+  % \textsc{Place and Date of Birth:} & Croydon  | 03 July 1993 \\
   \textsc{Address:}   & Flat 18, Southcott House, Devons Road, London E3 3HS \\
   \textsc{Phone:}     & + (44) 755--740--3079 \\
   \textsc{email:}     & \href{mailto:fayi@fayimora.com}{fayi@fayimora.com}
@@ -77,8 +73,16 @@
 \section{Work Experience}
 \begin{tabular}{r|p{11cm}}
   \textsc{June 2012--June 2013} & Industrial Placement at \textsc{Goldman Sachs}, \emph{Global
-  Securities Services}\\&\footnotesize{A short description of what my role entialed will go in here
-  later. This is just a temporary placeholder.}
+  Securities Services}\\&
+  % \footnotesize{I was placed in a team called Derivatives Clearing Services. We dealt with Over The
+  %   Counter products like swaps and derivatives. My role was mainly Application Development and
+  %   Support. As an application developer, I built and maintained business applications for our
+  %   clients and also handled support issues. The development was done in a proprietary programming
+  %   language and database}
+
+  \footnotesize{My role was mainly Application Development and Support. I built and maintained
+    business applications for our clients and also handled support issues. The development was done
+    in a proprietary programming language and database}
 \end{tabular}
 
 %Section: Education
@@ -130,10 +134,6 @@
   from 2006--2009.\\\\
 
   \textsc{2003--2008} & Elected class representative five times in a row.
-  % \textsc{June} 2006 &
-  % {\textsc{Gmat}\textregistered}\setmainfont[SmallCapsFont=Fontin-SmallCaps.otf]{Fontin.otf}: 730
-  % (\textsc{q:50;v:39}) 96\textsuperscript{th} percentile; \textsc{awa}: 6.0/6.0
-  % (89\textsuperscript{th} percentile)
 \end{tabular}
 
 \section{Technical Skills}
